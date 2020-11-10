@@ -1,0 +1,30 @@
+* {
+    box-sizing:border-box;
+}
+
+
+
+.container {
+    width: 75%;
+    height: 65vh;
+    margin: 0 auto;
+}
+
+
+.boxes {
+    width: 30%;
+    padding: 100px;
+    height: 100%;
+    border: 1px solid black;
+   
+}
+
+.boxes > div {
+    display: block;
+    font-size: 0;
+    background-color: grey;
+    height: 40%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
